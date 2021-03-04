@@ -79,7 +79,7 @@ function Router(props) {
               {' '}
               {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             </div>
-            <img style={{ height: '100%' }} alt={'Tendero'} src={collapsed ? 'tendero-logo-small.png' : 'tendero-logo.png'} />
+            <img style={{ height: '100%' }} alt={'Tendero'} src={collapsed ? '/tendero/tendero-logo-small.png' : '/tendero/tendero-logo.png'} />
           </div>
           <Divider className={'divider-custom-margins-nav'} type={'horizontal'} />
           <Avatar
@@ -99,11 +99,7 @@ function Router(props) {
               <UISpinner />
             ) : (
               <Switch>
-                {menu_routes.map((r, i) => (
-                  hasPermissions(r.profilePermissions) && (
-                    <Route exact key={i} path={r.route} component={r.component} />
-                  )
-                ))}
+                {menu_routes.map((r, i) => hasPermissions(r.profilePermissions) && <Route exact key={i} path={r.route} component={r.component} />)}
                 <Redirect to={menu_routes.find(route => hasPermissions(route.profilePermissions)).route} />
               </Switch>
             )}

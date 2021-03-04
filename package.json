@@ -1,4 +1,5 @@
 {
+  "homepage": "https://carlosmorenos.dev/tendero",
   "name": "tendero",
   "version": "1.0.74",
   "private": true,
@@ -22,7 +23,9 @@
     "build": "REACT_APP_VERSION=$npm_package_version react-scripts build",
     "deploy-prod": "REACT_APP_VERSION=$npm_package_version react-scripts build && export AWS_PROFILE=traestodo && aws s3 sync build/ s3://tendero-kemok",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

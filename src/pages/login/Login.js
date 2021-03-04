@@ -50,7 +50,7 @@ function Login() {
           alignItems: 'center',
         }}
       >
-        <img src="tendero-logo-lg.png" className={'login-logo-lg'} alt={'moocho'} />
+        <img src="/tendero/tendero-logo-lg.png" className={'login-logo-lg'} alt={'moocho'} />
 
         <div className={'login-container'}>
           <Form

@@ -4,7 +4,7 @@ import { Divider } from 'antd'
 function Avatar(props) {
   return (
     <div className="logo center-flex-div user-options" style={{ height: '55px', width: '100%', cursor: 'pointer' }}>
-      <img className={'menu-user-img'} src="usuario.png" alt={'Usuario'} />
+      <img className={'menu-user-img'} src="/tendero/usuario.png" alt={'Usuario'} />
       <span className={props.collapsed ? 'hide-component' : 'show-component'} style={{ marginLeft: '10px' }}>
         {props.userName}
       </span>
