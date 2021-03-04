@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <Router history={history}>
+    <Router basename={process.env.PUBLIC_URL} history={history}>
       <Switch>
         <Route render={props => <AppRouter {...props} />} />
       </Switch>
