@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './index.css'
 import { createBrowserHistory } from 'history'
 import AppRouter from './Router'
@@ -17,11 +17,12 @@ function App() {
   }
 
   return (
-    <Router basename={process.env.PUBLIC_URL} history={history}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {console.log(process.env.PUBLIC_URL)}
       <Switch>
         <Route render={props => <AppRouter {...props} />} />
       </Switch>
-    </Router>
+    </BrowserRouter>
   )
 }
 
