@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tendero/static/css/main.0727939f.chunk.css",
-    "main.js": "/tendero/static/js/main.16a8b689.chunk.js",
-    "main.js.map": "/tendero/static/js/main.16a8b689.chunk.js.map",
+    "main.js": "/tendero/static/js/main.e82665a1.chunk.js",
+    "main.js.map": "/tendero/static/js/main.e82665a1.chunk.js.map",
     "runtime-main.js": "/tendero/static/js/runtime-main.e3b78264.js",
     "runtime-main.js.map": "/tendero/static/js/runtime-main.e3b78264.js.map",
     "static/css/2.3cb76441.chunk.css": "/tendero/static/css/2.3cb76441.chunk.css",
     "static/js/2.fbf3c83e.chunk.js": "/tendero/static/js/2.fbf3c83e.chunk.js",
     "static/js/2.fbf3c83e.chunk.js.map": "/tendero/static/js/2.fbf3c83e.chunk.js.map",
     "index.html": "/tendero/index.html",
-    "precache-manifest.4ce46d440241abca96ff2eea461992e6.js": "/tendero/precache-manifest.4ce46d440241abca96ff2eea461992e6.js",
+    "precache-manifest.8e36e7931a2fe0a442e7537b7f685a51.js": "/tendero/precache-manifest.8e36e7931a2fe0a442e7537b7f685a51.js",
     "service-worker.js": "/tendero/service-worker.js",
     "static/css/2.3cb76441.chunk.css.map": "/tendero/static/css/2.3cb76441.chunk.css.map",
     "static/css/main.0727939f.chunk.css.map": "/tendero/static/css/main.0727939f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.3cb76441.chunk.css",
     "static/js/2.fbf3c83e.chunk.js",
     "static/css/main.0727939f.chunk.css",
-    "static/js/main.16a8b689.chunk.js"
+    "static/js/main.e82665a1.chunk.js"
   ]
 }
