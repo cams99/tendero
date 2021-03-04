@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tendero/precache-manifest.8e36e7931a2fe0a442e7537b7f685a51.js"
+  "/tendero/precache-manifest.2427b482c85171171063e921158d95a5.js"
 );
 
 self.addEventListener('message', (event) => {

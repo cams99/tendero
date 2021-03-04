@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73b11b8f3663574dcf8acd3ce1a98f83",
+    "revision": "5ce48fb43df707e274ec747d5b094beb",
     "url": "/tendero/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tendero/static/css/2.3cb76441.chunk.css"
   },
   {
-    "revision": "fdb630359dabcc000f83",
+    "revision": "ef558d374f722801b8cd",
     "url": "/tendero/static/css/main.0727939f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tendero/static/js/2.fbf3c83e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdb630359dabcc000f83",
-    "url": "/tendero/static/js/main.e82665a1.chunk.js"
+    "revision": "ef558d374f722801b8cd",
+    "url": "/tendero/static/js/main.518af4df.chunk.js"
   },
   {
     "revision": "4190f6b36d8081ea060c",
